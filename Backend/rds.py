@@ -10,7 +10,7 @@ db_config = {
     "host": "database-1.chygewgue8iv.us-east-2.rds.amazonaws.com",  #add your rds  
     "user": "admin",
     "password": "aasha123",  #add your password 
-    "database": "paytm"  #add your db name 
+    "database": "database-1"  #add your db name 
 }
 
 def get_db_connection():
@@ -78,4 +78,5 @@ def login_user():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
 
